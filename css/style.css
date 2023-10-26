@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:wght@700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-top: 0;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+a {
+    background-color: #EF7B34;
+    padding: 1vw;
+    border-radius: 1vw;
+    color: black;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color: #F4A97B;
+    padding: 1vw;
+    border-bottom: black 2px solid;
+}
+
+.logo {
+    width: 4vw;
+    height: 10vh;
+}
+
+.navLinks {
+    margin-left: 70vw;
+    margin-top: 3vh;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: #FDF3EC;
+    padding-bottom: 5vh;
+    border-bottom: black 2px solid;
+}
+
+.headerFlex {
+    display: flex;
+    flex-direction: row;
+    margin-left: 27vw;
+    align-items: center;
+}
+
+.description {
+    margin-left: 5vw;
+    background-color: #F4A97B;
+    padding: 2vw;
+    border-radius: 1vw;
+}
+
+.longDescription {
+    background-color: #F4A97B;
+    padding: 3vw;
+    border-bottom: black 2px solid;
+}
+
+.games {
+    background-color: #FDF3EC;
+    padding: 3vw;
+    border-bottom: black 2px solid;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #F4A97B;
+    padding: 1vw;
+}
+
+.footerLinks {
+    margin-left: 70vw;
+    margin-top: 3vh;
+}
