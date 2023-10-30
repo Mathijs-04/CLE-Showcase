@@ -32,13 +32,20 @@ p {
     font-size: 1.5rem;
 }
 
+.longDescriptionText {
+    font-size: 1.75rem;
+}
+
 a {
     background-color: #EF7B34;
     padding: 1vw;
     border-radius: 1vw;
     color: black;
     text-decoration: none;
-    transition: all 0.2s ease-out;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    border: black 2px solid;
+    transition: all 0.1s ease-out;
 }
 
 a:hover {
@@ -47,6 +54,9 @@ a:hover {
     border-radius: 1vw;
     color: black;
     text-decoration: none;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    border: black 2px solid;
 }
 
 nav {
@@ -54,18 +64,17 @@ nav {
     flex-direction: row;
     background-color: #F4A97B;
     padding: 1vw;
+    border-bottom: black 3px solid;
 }
 
 .logo {
     width: 4vw;
     height: 10vh;
-    transition: all 1s ease-out;
 }
 
 .logo:hover {
     width: 4vw;
     height: 10vh;
-    transform: rotateY(180deg);
 }
 
 .navLinks {
@@ -100,6 +109,7 @@ header {
     padding: 2vw;
     border-radius: 1vw;
     transition: all 0.2s ease-out;
+    border: black 3px solid;
 }
 
 .description:hover {
@@ -108,21 +118,72 @@ header {
     padding: 2vw;
     border-radius: 1vw;
     transform: scale(1.15);
+    border: black 3px solid;
 }
 
 .longDescription {
     padding: 3vw 3vw 0vw 3vw;
     text-align: center;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 10vh;
 }
 
 .games {
+    display: flex;
+    flex-direction: row;
     padding: 0vw 3vw 0vw 3vw;
     text-align: center;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    margin-bottom: 5vh;
+    margin-bottom: 10vh;
+    margin-left: 2.5vw;
+}
+
+.roulette {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    background-color: #F4A97B;
+    margin: 2vw;
+    padding: 2vw;
+    border-radius: 1vw;
+    border: black 3px solid;
+    transition: all 0.2s ease-out;
+}
+
+.roulette:hover {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    background-color: #F4A97B;
+    margin: 2vw;
+    padding: 2vw;
+    border-radius: 1vw;
+    border: black 3px solid;
+    transform: scale(1.15);
+}
+
+.blackjack {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    background-color: #F4A97B;
+    margin: 2vw;
+    padding: 2vw;
+    border-radius: 1vw;
+    border: black 3px solid;
+    transition: all 0.2s ease-out;
+}
+
+.blackjack:hover {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    background-color: #F4A97B;
+    margin: 2vw;
+    padding: 2vw;
+    border-radius: 1vw;
+    border: black 3px solid;
+    transform: scale(1.15);
 }
 
 footer {
@@ -130,6 +191,7 @@ footer {
     flex-direction: row;
     background-color: #F4A97B;
     padding: 1vw;
+    border-top: black 3px solid;
 }
 
 .footerLinks {
@@ -144,6 +206,8 @@ footer {
     color: black;
     text-decoration: none;
     transition: all 0.2s ease-out;
+    border: none;
+    margin: 0;
 }
 
 #footerLink:hover {
