@@ -87,15 +87,11 @@ nav {
 .logo {
     width: 4vw;
     height: 10vh;
-}
-
-.logo:hover {
-    width: 4vw;
-    height: 10vh;
+    margin-left: 5vw;
 }
 
 .navLinks {
-    margin-left: 65vw;
+    margin-left: 60vw;
     margin-top: 3vh;
 }
 
@@ -225,7 +221,7 @@ footer {
 }
 
 .footerLinks {
-    margin-left: 65vw;
+    margin-left: 60vw;
     margin-top: 3vh;
 }
 
