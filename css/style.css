@@ -1,4 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:wght@700&display=swap'); 
+ 
+@keyframes backgrounds {
+    0% {
+        background-color: #60608c;
+    }
+ 
+    50% {
+        background-color: #9fbefb;
+    }
+ 
+    100% {
+        background-color: #60608c;
+    }
+}
 
 * {
     box-sizing: border-box;
@@ -67,6 +81,7 @@ nav {
     background-color: #60608c;
     padding: 1vw;
     border-bottom: black 3px solid;
+    animation: backgrounds 10s infinite;
 }
 
 .logo {
@@ -206,6 +221,7 @@ footer {
     background-color: #60608c;
     padding: 1vw;
     border-top: black 3px solid;
+    animation: backgrounds 10s infinite;
 }
 
 .footerLinks {
